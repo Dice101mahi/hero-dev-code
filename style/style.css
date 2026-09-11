@@ -1,0 +1,61 @@
+/* Shared style */
+
+#logos_r{
+    color: #FD6E0A;
+}
+
+#logo h2{
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 51px;
+    align-items: center;
+}
+
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.btn{
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+
+
+/* Main style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+header{
+    background-color: #FFF8F3;
+}
+
+nav{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
